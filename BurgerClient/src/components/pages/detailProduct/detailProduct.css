@@ -1,0 +1,76 @@
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 150%;
+    background-color: white;
+    border-radius: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.detail:hover{
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+
+.detail img{
+    max-width: 400px;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    margin: 20px;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px !important;
+}
+
+.detail_box{
+    max-width: 500px;
+    width: 100%;
+    margin: 5px 20px;
+}
+
+.detail_box .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail_box h2{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    color: orangered
+}   
+
+.detail_box p{
+    line-height: 1.5;
+    margin: 10px 0;
+    color: red;
+    font-size: 1.3rem;
+}
+
+#sold{
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+.detail_box .cart{
+    background-color: orange;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.heading {
+    padding: 15px;
+    margin: 10px auto;
+    border-bottom: 1px solid #fff;
+}

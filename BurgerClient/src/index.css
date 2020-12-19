@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  background: repeating-linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url("./images/burger1.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+  background-size: cover;
+}
+
+.App {
+  max-width: 1230px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+  color: #fff;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+ul li{
+  list-style: none;
+}
+
+button{
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+@import url("./components/header/header.css");
+
+@import url("./components/pages/utils/NotFound/notFound.css");
+
+@import url("./components/pages/products/products.css");
+
+@import url("./components/pages/detailProduct/detailProduct.css");
+
+@import url("./components/pages/auth/login.css");
+
+@import url("./components/pages/cart/cart.css");
+
+
+
